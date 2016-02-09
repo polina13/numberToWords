@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NumberToWordTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-02-09T23:55:31" hostname="epicodus-58.local" time="0.001">
+  <properties/>
+  <testcase name="isNumberToWord_returnSixwhengiven6_six" classname="NumberToWordTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
