@@ -10,4 +10,11 @@ public class NumberToWordTest {
     assertEquals(numberWord, testNumberToWord.isNumberToWord(6));
   }
 
+  @Test
+  public void isNumberToWord_returnWordwhengiven56_fiftysix() {
+    NumberToWord testNumberToWord = new NumberToWord();
+    String numberWord = "fifty six";
+    assertEquals(numberWord, testNumberToWord.isNumberToWord(56));
+  }
+
 }

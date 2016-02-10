@@ -33,15 +33,26 @@ public class NumberToWord {
     numberWordSequence.put(18, "eighteen");
     numberWordSequence.put(19, "nineteen");
 
+    ArrayList<String[]> list = new ArrayList<String[]>();
+    String[] TwoDigits = { "twenty", "thirty",
+  "forty", "fifty", "sixty", "seventy", "eighty", "ninety"};
+    list.add(TwoDigits);
 
+  if (userNumberInput <= 19) {
     for (Object key : numberWordSequence.keySet() ) {
       for (Object value : numberWordSequence.values() ) {
         if(numberWordSequence.containsKey(userNumberInput)) {
           result = numberWordSequence.get(userNumberInput);
+        }
       }
     }
   }
-
+// if (Integer userNumberInput <= 99) {
+//   userNumberInput.toCharArray()
+//   for (String[] twoDigit : list) {
+//
+//   }
+// }
   return result;
 
   }
